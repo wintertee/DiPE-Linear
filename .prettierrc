@@ -1,0 +1,11 @@
+{
+  "overrides": [
+    {
+      "files": "configs/**/*.yaml",
+      "options": {
+        "tabWidth": 2,
+        "useTabs": false
+      }
+    }
+  ]
+}

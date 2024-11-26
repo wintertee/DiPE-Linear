@@ -1,0 +1,50 @@
+model:
+  class_path: timeprophet.experiments.forecasting.LongTermForecasting
+  init_args:
+    model:
+      class_path: timeprophet.models.RLinear
+      init_args:
+        individual: False
+        dropout_p: 0.1
+    log_forecast: False
+
+optimizer:
+  class_path: torch.optim.Adam
+  init_args:
+    lr: 1e-3
+
+lr_scheduler:
+  class_path: torch.optim.lr_scheduler.CosineAnnealingLR
+  init_args:
+    T_max: 50
+    eta_min: 0
+
+trainer:
+  max_epochs: 50
+  precision: 32
+  logger:
+    - class_path: timeprophet.logger.TensorBoardLogger
+      init_args:
+        save_dir: logs
+  callbacks:
+    - class_path: timeprophet.utils.callbacks.TemperatureScaling
+      init_args:
+        verbose: True
+    - class_path: pytorch_lightning.callbacks.RichModelSummary
+      init_args:
+        max_depth: -1
+    - class_path: pytorch_lightning.callbacks.RichProgressBar
+      init_args:
+        refresh_rate: 1
+        leave: True
+    - class_path: pytorch_lightning.callbacks.ModelCheckpoint
+      init_args:
+        monitor: val_loss
+        verbose: False
+        save_top_k: 1
+        mode: min
+        save_last: True
+    - class_path: pytorch_lightning.callbacks.LearningRateMonitor
+      init_args:
+        logging_interval: epoch
+  log_every_n_steps: 10

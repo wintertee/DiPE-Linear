@@ -1,0 +1,14 @@
+data:
+  class_path: timeprophet.data_modules.ETDataModule
+  init_args:
+    dataset_path: dataset/ETTh1.csv.gz
+    batch_size: 64
+    input_len: 720
+    output_len: 192
+    x_features: null
+    y_features: null
+    all_features_num: 7
+    preprocessor: sklearn.preprocessing.StandardScaler
+    pin_memory: true
+    num_workers: 4
+    persistent_workers: true

@@ -161,12 +161,7 @@ cython_debug/
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
 
-# Reserve ./dataset folder
-# dataset/*
-!dataset/.gitignore
-
 lightning_logs/
 checkpoints/
 events.out.tfevents.*
 logs/
-dataset/

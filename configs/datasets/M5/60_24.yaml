@@ -1,0 +1,14 @@
+data:
+  class_path: timeprophet.data_modules.MultivarDataModule
+  init_args:
+    dataset_path: dataset/m5.csv.gz
+    batch_size: 8
+    input_len: 60
+    output_len: 24
+    x_features: null
+    y_features: null
+    all_features_num: 30
+    preprocessor: sklearn.preprocessing.StandardScaler
+    pin_memory: true
+    num_workers: 4
+    persistent_workers: true
