@@ -22,6 +22,15 @@ All experiments can be reproduced using the `scripts/DiPE.sh` script.
 If you find this repo useful, please cite our paper:
 
 ```bibtex
+@misc{zhao2024dipe,
+      title={Disentangled Interpretable Representation for Efficient Long-term Time Series Forecasting}, 
+      author={Yuang Zhao and Tianyu Li and Jiadong Chen and Shenrong Ye and Fuxin Jiang and Tieying Zhang and Xiaofeng Gao},
+      year={2024},
+      eprint={2411.17257},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG},
+      url={https://arxiv.org/abs/2411.17257}, 
+}
 ```
 
 ## License
