@@ -1,5 +1,9 @@
 # Disentangled Interpretable Representation for Efficient Long-term Time Series Forecasting
 
+[![arXiv](https://img.shields.io/badge/arXiv-2411.17257-B31B1B.svg?logo=arxiv)](https://arxiv.org/abs/2411.17257)
+[![DOI](https://img.shields.io/badge/DOI-10.48550/arXiv.2411.17257-FAB70C.svg?logo=DOI)](https://doi.org/10.48550/arXiv.2411.17257)
+[![license](https://img.shields.io/github/license/wintertee/DiPE-Linear?style=flat)](https://github.com/wintertee/DiPE-Linear/blob/main/LICENSE)
+
 The official implementation of paper "Disentangled Interpretable Representation for Efficient Long-term Time Series Forecasting"
 
 ## Requirements
