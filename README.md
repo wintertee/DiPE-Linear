@@ -4,6 +4,14 @@
 [![DOI](https://img.shields.io/badge/DOI-10.48550/arXiv.2411.17257-FAB70C.svg?logo=DOI)](https://doi.org/10.48550/arXiv.2411.17257)
 [![license](https://img.shields.io/github/license/wintertee/DiPE-Linear?style=flat)](https://github.com/wintertee/DiPE-Linear/blob/main/LICENSE)
 
+
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/disentangled-interpretable-representation-for/time-series-forecasting-on-etth1-720-1)](https://paperswithcode.com/sota/time-series-forecasting-on-etth1-720-1?p=disentangled-interpretable-representation-for)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/disentangled-interpretable-representation-for/time-series-forecasting-on-etth2-720-1)](https://paperswithcode.com/sota/time-series-forecasting-on-etth2-720-1?p=disentangled-interpretable-representation-for)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/disentangled-interpretable-representation-for/time-series-forecasting-on-ettm1-720-1)](https://paperswithcode.com/sota/time-series-forecasting-on-ettm1-720-1?p=disentangled-interpretable-representation-for)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/disentangled-interpretable-representation-for/time-series-forecasting-on-ettm2-720-1)](https://paperswithcode.com/sota/time-series-forecasting-on-ettm2-720-1?p=disentangled-interpretable-representation-for)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/disentangled-interpretable-representation-for/time-series-forecasting-on-weather-720)](https://paperswithcode.com/sota/time-series-forecasting-on-weather-720?p=disentangled-interpretable-representation-for)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/disentangled-interpretable-representation-for/time-series-forecasting-on-electricity-720)](https://paperswithcode.com/sota/time-series-forecasting-on-electricity-720?p=disentangled-interpretable-representation-for)
+
 The official implementation of paper "Disentangled Interpretable Representation for Efficient Long-term Time Series Forecasting"
 
 ## Requirements
